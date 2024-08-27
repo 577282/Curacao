@@ -124,7 +124,7 @@ fetch('https://raw.githubusercontent.com/577282/Curacao/43f8fa49f36ff6957521bf67
   });
 
 // Fetch the GeoJSON file and add it to the map
-fetch('Geolocations/Playakalki.geojson')
+fetch('https://raw.githubusercontent.com/577282/Curacao/15889f2c13d3f0035987a2aa2ae6fc3e32227617/Geolocation/Playakalki.geojson')
   .then(response => response.json())
   .then(data => {
     L.geoJSON(data, {
