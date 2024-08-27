@@ -182,7 +182,7 @@ fetch('https://raw.githubusercontent.com/577282/Curacao/8e016afd605bd7dd400bbb6e
   });
 
 // Fetch the GeoJSON file and add it to the map
-fetch('Geolocations/Snakebay.geojson')
+fetch('https://raw.githubusercontent.com/577282/Curacao/91f343ffe1bca5a0aa8cd88ba8b99e84b38ec230/Geolocation/Snakebay.geojson')
   .then(response => response.json())
   .then(data => {
     L.geoJSON(data, {
