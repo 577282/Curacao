@@ -166,7 +166,7 @@ fetch('https://raw.githubusercontent.com/577282/Curacao/8e016afd605bd7dd400bbb6e
           // Create a popup with an image
           const popup = L.popup()
             .setLatLng(e.latlng)
-            .setContent('<img src="Geofigures/Portomarie.png" alt="Description" style="width:400px; height:auto;">')
+            .setContent('<img src="https://raw.githubusercontent.com/577282/Curacao/f83b91faaf909cf7122cfa871a9a2844ada7190a/Geofigures/Portomarie.png" alt="Description" style="width:400px; height:auto;">')
             .openOn(map);
         });
 
