@@ -8,7 +8,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 
 // Fetch the GeoJSON file and add it to the map
-fetch('Geolocations/Piscadera.geojson')
+fetch('Geolocation/Piscadera.geojson')
   .then(response => response.json())
   .then(data => {
     L.geoJSON(data, {
