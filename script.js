@@ -224,7 +224,7 @@ fetch('https://raw.githubusercontent.com/577282/Curacao/24f840ffa91a503464f94dd7
           // Create a popup with an image
           const popup = L.popup()
             .setLatLng(e.latlng)
-            .setContent('<img src="Geofigures/Waterfactory.png" alt="Description" style="width:400px; height:auto;">')
+            .setContent('<img src="https://raw.githubusercontent.com/577282/Curacao/a6360490543501d2a2c5c2096f3cb51f2d1bbcd3/Geofigures/Waterfactory.png" alt="Description" style="width:400px; height:auto;">')
             .openOn(map);
         });
 
