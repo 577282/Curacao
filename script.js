@@ -66,7 +66,7 @@ fetch('https://raw.githubusercontent.com/577282/Curacao/ae92e62dedee479f52fc7258
   });
 
 // Fetch the GeoJSON file and add it to the map
-fetch('Geolocations/Kokomobeach.geojson')
+fetch('https://raw.githubusercontent.com/577282/Curacao/4774278f58f968747ecab7b3d80770f4596f0743/Geolocation/Kokomobeach.geojson')
   .then(response => response.json())
   .then(data => {
     L.geoJSON(data, {
