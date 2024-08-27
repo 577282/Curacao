@@ -137,7 +137,7 @@ fetch('https://raw.githubusercontent.com/577282/Curacao/15889f2c13d3f0035987a2aa
           // Create a popup with an image
           const popup = L.popup()
             .setLatLng(e.latlng)
-            .setContent('<img src="Geofigures/Playakalki.png" alt="Description" style="width:400px; height:auto;">')
+            .setContent('<img src="https://raw.githubusercontent.com/577282/Curacao/fac8f83eac220db1e6787f8dc7932c3e190292e5/Geofigures/Playakalki.png" alt="Description" style="width:400px; height:auto;">')
             .openOn(map);
         });
 
