@@ -195,7 +195,7 @@ fetch('https://raw.githubusercontent.com/577282/Curacao/91f343ffe1bca5a0aa8cd88b
           // Create a popup with an image
           const popup = L.popup()
             .setLatLng(e.latlng)
-            .setContent('<img src="Geofigures/Snakebay.png" alt="Description" style="width:400px; height:auto;">')
+            .setContent('<img src="https://raw.githubusercontent.com/577282/Curacao/c08e4f77129da6701720a35b1c551ecbabf78f9d/Geofigures/Snakebay.png" alt="Description" style="width:400px; height:auto;">')
             .openOn(map);
         });
 
