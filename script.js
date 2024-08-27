@@ -108,7 +108,7 @@ fetch('https://raw.githubusercontent.com/577282/Curacao/43f8fa49f36ff6957521bf67
           // Create a popup with an image
           const popup = L.popup()
             .setLatLng(e.latlng)
-            .setContent('<img src="Geofigures/Mariepampoen.png" alt="Description" style="width:400px; height:auto;">')
+            .setContent('<img src="https://raw.githubusercontent.com/577282/Curacao/08de3dfe96fef16a780f089f566484eff01d310d/Geofigures/Mariepampoen.png" alt="Description" style="width:400px; height:auto;">')
             .openOn(map);
         });
 
