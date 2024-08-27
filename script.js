@@ -211,7 +211,7 @@ fetch('https://raw.githubusercontent.com/577282/Curacao/91f343ffe1bca5a0aa8cd88b
   });
 
 // Fetch the GeoJSON file and add it to the map
-fetch('Geolocations/Waterfactory.geojson')
+fetch('https://raw.githubusercontent.com/577282/Curacao/24f840ffa91a503464f94dd7d357c6508d507d0b/Geolocation/Waterfactory.geojson')
   .then(response => response.json())
   .then(data => {
     L.geoJSON(data, {
