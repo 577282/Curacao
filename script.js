@@ -21,7 +21,7 @@ fetch('https://raw.githubusercontent.com/577282/Curacao/b8dbf941997aed1e2a7452f2
           // Create a popup with an image
           const popup = L.popup()
             .setLatLng(e.latlng)
-            .setContent('<img src="Geofigures/Piscadera.png" alt="Description" style="width:400px; height:auto;">')
+            .setContent('<img src="https://raw.githubusercontent.com/577282/Curacao/7e82631b5b9a5afe66e4b89b9ece2ff9dee8c7c1/Geofigures/Piscadera.png" alt="Description" style="width:400px; height:auto;">')
             .openOn(map);
         });
 
