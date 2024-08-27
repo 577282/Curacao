@@ -50,7 +50,7 @@ fetch('Geolocations/Doublereef.geojson')
           // Create a popup with an image
           const popup = L.popup()
             .setLatLng(e.latlng)
-            .setContent('<img src="https://raw.githubusercontent.com/577282/Curacao/7e82631b5b9a5afe66e4b89b9ece2ff9dee8c7c1/Geofigures/Piscadera.png" alt="Description" style="width:400px; height:auto;">')
+            .setContent('<img src="https://raw.githubusercontent.com/577282/Curacao/145f2f9c34fdcc21abc06ce24fab9e22c62d7a9c/Geofigures/Doublereef.png" alt="Description" style="width:400px; height:auto;">')
             .openOn(map);
         });
 
