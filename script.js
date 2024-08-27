@@ -37,7 +37,7 @@ fetch('https://raw.githubusercontent.com/577282/Curacao/b8dbf941997aed1e2a7452f2
   });
 
 // Fetch the GeoJSON file and add it to the map
-fetch('Geolocations/Doublereef.geojson')
+fetch('https://raw.githubusercontent.com/577282/Curacao/ae92e62dedee479f52fc7258ff90835ced3b6b06/Geolocation/Doublereef.geojson')
   .then(response => response.json())
   .then(data => {
     L.geoJSON(data, {
