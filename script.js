@@ -79,7 +79,7 @@ fetch('https://raw.githubusercontent.com/577282/Curacao/4774278f58f968747ecab7b3
           // Create a popup with an image
           const popup = L.popup()
             .setLatLng(e.latlng)
-            .setContent('<img src="Geofigures/Kokomobeach.png" alt="Description" style="width:400px; height:auto;">')
+            .setContent('<img src="https://raw.githubusercontent.com/577282/Curacao/b30448b099d849ab34d72f6a5680432efa49b28c/Geofigures/Kokomobeach.png" alt="Description" style="width:400px; height:auto;">')
             .openOn(map);
         });
 
